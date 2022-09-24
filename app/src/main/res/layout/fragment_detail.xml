@@ -62,14 +62,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/weeks" />
+                    android:text="@string/weeks"
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:id="@+id/tvModality"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/modality" />
+                    android:text="@string/modality"
+                    android:textSize="16sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -90,7 +92,8 @@
                     android:id="@+id/tvSkillLevel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/skill" />
+                    android:text="@string/skill"
+                    android:textSize="16sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -111,7 +114,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/start" />
+                    android:text="@string/start"
+                    android:textSize="16sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -132,7 +136,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/price" />
+                    android:text="@string/price"
+                    android:textSize="16sp"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -141,6 +146,7 @@
             android:id="@+id/btnEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_btn"
             android:text="@string/send_email"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
