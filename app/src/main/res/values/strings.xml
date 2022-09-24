@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Examen Centro de Formación Futuro</string>
     <string name="error_call">ERROR_CALL</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="weeks">Weeks</string>
+    <string name="skill">Skill Level</string>
+    <string name="price">Price</string>
+    <string name="start">Start</string>
+    <string name="modality">Modality</string>
+    <string name="send_email">Ask for Details</string>
 </resources>
