@@ -16,5 +16,13 @@ class CoursesClient {
                 .build()
             return retrofit.create(CoursesService::class.java)
         }
+
+        fun retrofitInstanceCustomUrl(url:String): CoursesService {
+            val retrofit = Retrofit.Builder()
+                .baseUrl(url)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+            return retrofit.create(CoursesService::class.java)
+        }
     }
 }
