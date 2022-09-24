@@ -41,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:text="@string/title" />
+                android:text="@string/title"
+                android:textColor="@color/primary_text"/>
 
             <TextView
                 android:id="@+id/tvDescription"
@@ -49,7 +50,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="@string/description"
-                android:textsize="16sp"/>
+                android:textsize="16sp"
+                android:textColor="@color/secondary_text"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -63,7 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/weeks"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"
+                    android:textColor="@color/secondary_text"/>
 
                 <TextView
                     android:id="@+id/tvModality"
@@ -71,7 +74,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/modality"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"
+                    android:textColor="@color/secondary_text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -93,7 +97,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/skill"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"
+                    android:textColor="@color/secondary_text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -115,7 +120,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/start"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"
+                    android:textColor="@color/primary_text"/>
             </LinearLayout>
 
             <LinearLayout
@@ -129,6 +135,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_weight="0"
+                    android:layout_margin="7dp"
                     android:src="@drawable/ic_money" />
 
                 <TextView
@@ -137,7 +144,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/price"
-                    android:textSize="16sp"/>
+                    android:textSize="36sp"
+                    android:textColor="@color/primary_text"/>/>
             </LinearLayout>
 
         </LinearLayout>
@@ -148,6 +156,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/round_btn"
             android:text="@string/send_email"
+            android:textColor="@color/text_icons"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
