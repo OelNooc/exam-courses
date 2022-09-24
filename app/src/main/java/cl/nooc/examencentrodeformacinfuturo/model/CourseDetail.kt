@@ -1,5 +1,8 @@
 package cl.nooc.examencentrodeformacinfuturo.model
 
+import androidx.room.Entity
+
+@Entity(tableName = "course_detail")
 data class CourseDetail(
     val description: String,
     val id: String,
