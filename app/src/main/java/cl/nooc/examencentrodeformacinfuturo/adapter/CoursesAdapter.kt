@@ -21,7 +21,7 @@ class CoursesAdapter: RecyclerView.Adapter<CoursesAdapter.CustomViewHolder>() {
             with(binding){
                 Picasso.get().load(course.image).resize(250,250).into(ivCourse)
                 tvCourseName.text = course.title
-                tvSkillLevel.text = course.previewDescription
+                tvPreviewDesc.text = course.previewDescription
                 itemView.setOnClickListener {
                     listener.onClickListener(course)
                 }

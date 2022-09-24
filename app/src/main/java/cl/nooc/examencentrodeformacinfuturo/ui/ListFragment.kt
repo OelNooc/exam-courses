@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.viewModels
+import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.Navigation
@@ -18,7 +19,7 @@ import cl.nooc.examencentrodeformacinfuturo.viewmodel.CoursesViewModel
 class ListFragment : Fragment() {
 
     lateinit var binding: FragmentListBinding
-    private val viewModel by viewModels<CoursesViewModel>()
+    private val viewModel by activityViewModels<CoursesViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

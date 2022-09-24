@@ -3,10 +3,16 @@
     <string name="error_call">ERROR_CALL</string>
     <string name="title">Title</string>
     <string name="description">Description</string>
-    <string name="weeks">Weeks</string>
+    <string name="weeks">Weeks: </string>
     <string name="skill">Skill Level</string>
     <string name="price">Price</string>
     <string name="start">Start</string>
     <string name="modality">Modality</string>
     <string name="send_email">Ask for Details</string>
+    <string name="destiny_email">admisión@centrofuturo.cl</string>
+    <string name="mail_type">plain/text</string>
+    <string name="mail_value">\"Solicito información sobre este curso ID \"</string>
+    <string name="mail_text1">Hola\nQuisiera pedir información sobre este curso</string>
+    <string name="mail_text2">, me gustaría que me contactaran a este correo o al siguiente número __________ \n\n Quedo atento.</string>
+    <string name="ask_pref_app">Escoja por dónde quiere pedir información</string>
 </resources>

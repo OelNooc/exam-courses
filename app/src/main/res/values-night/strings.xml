@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="error_call">ERROR_CALL</string>
+    <string name="destiny_email">admisión@centrofuturo.cl</string>
+    <string name="mail_value">\"Solicito información sobre este curso ID \"</string>
+    <string name="ask_pref_app">Escoja por dónde quiere pedir información</string>
 </resources>
